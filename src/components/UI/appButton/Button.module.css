@@ -11,3 +11,19 @@
 .button:hover {
   background-color: #0056b3;
 }
+
+.outlined {
+  background: none;
+  border: 1px solid red;
+  color: red;
+}
+
+.outlined:hover {
+  background: red;
+  border: 1px solid white;
+  color: white;
+}
+.outlined:active {
+  background-color: rgb(167, 93, 93);
+  box-shadow: 1px 1px 1px;
+}
